@@ -1,0 +1,76 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+rgb-frontend/dist
+rgb-frontend/tmp
+rgb-frontend/out-tsc
+rgb-frontend/bazel-out
+
+# Node
+rgb-frontend/node_modules
+rgb-frontend/npm-debug.log
+rgb-frontend/yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/mcp.json
+.history/*
+
+# Miscellaneous
+rgb-frontend/angular/cache
+rgb-frontend/.sass-cache/
+rgb-frontend/connect.lock
+rgb-frontend/coverage
+rgb-frontend/libpeerconnection.log
+rgb-frontend/testem.log
+rgb-frontend/typings
+__screenshots__/
+
+# System files
+rgb-frontend/.DS_Store
+rgb-frontend/Thumbs.db
+
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
