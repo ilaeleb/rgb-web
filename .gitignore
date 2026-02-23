@@ -30,7 +30,7 @@ rgb-frontend/yarn-error.log
 .history/*
 
 # Miscellaneous
-rgb-frontend/angular/cache
+rgb-frontend/.angular/
 rgb-frontend/.sass-cache/
 rgb-frontend/connect.lock
 rgb-frontend/coverage
@@ -74,3 +74,4 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+rgb-backend/src/main/resources/application.properties
